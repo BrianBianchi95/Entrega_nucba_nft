@@ -5,21 +5,15 @@
   --background: #DFDBE5;
   --primary: #e9d042;
   --secondary: #e9d042 ;
-  --btn-bg: #7f5af0;
-  --bg-azul-10: #e9eeff;
-  --bg-white: #fff;
-  --bg-electric: #f0fbff;
-  --nav-bg: #7f5af0;
+
 
   /* Text colors */
   --text-gray: #000000;
   --text-white: #6d6868;
 
-  /* Decoration */
-  --fire: #ff6d00;
-  --electric: #64d3ff;
+ 
 
-  --max-width: 1200px;
+  /*--max-width: 1200px;*/
 }
 
 * {
@@ -161,7 +155,6 @@ main {
   justify-content: center;
   align-items: center;
   gap: 70px;
-  /* border: 1px solid green; */
 }
 
 #info h2 {
@@ -171,7 +164,6 @@ main {
 }
 
 .info-cards-container {
-  /* background: crimson; */
   display: flex;
   gap: 20px;
 }
@@ -210,19 +202,46 @@ main {
 /* ====================== CONTACTO ========================= */
 /* ----------------------------------------------------------------- */
 
-#contacto{
-  display: flex;
+.contacto {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
 }
 
-.formulario{
-  display: flex;
-  align-items: start;
-  flex-direction: column;
-  gap: 10px;
-  color: #000000;
-  width: 200px;
-  height: 200px;
+.contacto h2{
+  color:  rgb(90, 90, 90);
+}
 
+#contact-form {
+  padding: 30px;
+  margin-top: 30px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  color: #000000;
+  gap: 10px;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0 20px 0;
+  border: 1px solid #ccc;
+}
+
+input[type="submit"] {
+  background: #333;
+  color: #fff;
+  border: 0;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background: #555;
+}
+
+#map {
+  width: 100%;
+  height: 400px;
+  margin-top: 20px;
 }
 
 
